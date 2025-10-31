@@ -1,0 +1,9 @@
+//octal to hexadecimal
+#include<stdio.h>
+int main(){
+ int number;
+ printf("Enter a octal number:");
+ scanf("%o",&number);
+ printf("Hexadecimal number:%x",number);
+ return 0;
+}
